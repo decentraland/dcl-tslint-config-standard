@@ -187,6 +187,7 @@ module.exports = {
     ],
     'object-curly-spacing': [true, 'always'],
     // tslint-clean-code rules
-    'no-commented-out-code': true
+    'no-commented-out-code': true,
+    'jsx-boolean-value': [false]
   }
 }
