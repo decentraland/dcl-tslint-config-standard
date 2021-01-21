@@ -32,20 +32,20 @@ module.exports = {
       {
         'call-signature': 'nospace',
         'index-signature': 'nospace',
-        'parameter': 'nospace',
+        parameter: 'nospace',
         'property-declaration': 'nospace',
         'variable-declaration': 'nospace'
       },
       {
         'call-signature': 'onespace',
         'index-signature': 'onespace',
-        'parameter': 'onespace',
+        parameter: 'onespace',
         'property-declaration': 'onespace',
         'variable-declaration': 'onespace'
       }
     ],
     'await-promise': true,
-    'curly': [true, 'ignore-same-line'],
+    curly: [true, 'ignore-same-line'],
     'label-position': true,
     'no-arg': true,
     'no-conditional-assignment': true,
@@ -60,7 +60,7 @@ module.exports = {
     'no-unused-variable': [true, { 'ignore-pattern': '^_' }],
     'no-use-before-declare': true,
     'no-var-keyword': true,
-    'radix': true,
+    radix: true,
     'return-undefined': true,
     'space-within-parens': [true, 0],
     'triple-equals': [
@@ -68,7 +68,7 @@ module.exports = {
       'allow-null-check'
     ],
     'use-isnan': true,
-    'eofline': true,
+    eofline: true,
     'ter-indent': [
       true,
       2,
@@ -80,8 +80,8 @@ module.exports = {
     'trailing-comma': [
       true,
       {
-        'multiline': 'never',
-        'singleline': 'never'
+        multiline: 'never',
+        singleline: 'never'
       }
     ],
     'class-name': true,
@@ -107,13 +107,13 @@ module.exports = {
       'check-whitespace'
     ],
     'one-variable-per-declaration': true,
-    'quotemark': [
+    quotemark: [
       true,
       'single',
       'avoid-escape',
       'jsx-single'
     ],
-    'semicolon': [
+    semicolon: [
       true,
       'never'
     ],
@@ -127,7 +127,7 @@ module.exports = {
       'allow-leading-underscore',
       'allow-pascal-case'
     ],
-    'whitespace': [
+    whitespace: [
       true,
       'check-branch',
       'check-decl',
@@ -165,8 +165,8 @@ module.exports = {
     'ter-arrow-spacing': [
       true,
       {
-        'before': true,
-        'after': true
+        before: true,
+        after: true
       }
     ],
     'no-multi-spaces': true,
@@ -182,7 +182,7 @@ module.exports = {
       true,
       '1tbs',
       {
-        'allowSingleLine': true
+        allowSingleLine: true
       }
     ],
     'object-curly-spacing': [true, 'always'],
